@@ -13,5 +13,5 @@ var validateStackSequences = function(pushed, popped) {
             stack.pop(); idx++;
         }
     }
-    return !stack.length
+    return stack.length === 0
 };
